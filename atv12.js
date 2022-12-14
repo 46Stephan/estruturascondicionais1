@@ -55,4 +55,4 @@ document.write('Sua média é: ' + media+ '<br />');
 document.write('A quantidade de números positivos vai ser: ' +  valorPositivo+ '<br />');
 document.write('A quantidade de números negativo vai ser: ' +  valorNegativo+ '<br />');
 document.write('O percentual de números positivos é de: ' + percentPositivo, '%'+ '<br />');
-document.write('O percentual de números positivos é de: ' + percentNegativo, '%'+ '<br />');
+document.write('O percentual de números negativos é de: ' + percentNegativo, '%'+ '<br />');
