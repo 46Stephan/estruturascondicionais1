@@ -7,10 +7,10 @@ let velocidade = parseFloat(prompt('Insira a velocidade do carro:'));
 let excesso = velocidade - 80;
 const multa = 5
 
-if(velocidade>80){
+if (velocidade > 80) {
 
-    alert(`Você foi multado em: R$ ${excesso*multa} reais.`);
+    alert(`Você foi multado em: R$ ${excesso * multa} reais.`);
 
-}else{
+} else {
     alert(`Você está dirigindo dentro do limite permitido!`);
 }

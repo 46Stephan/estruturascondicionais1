@@ -6,18 +6,18 @@ como mostrado abaixo:
 let numero1 = 30;
 let numero2 = 1;
 
-for(let contador = numero1; contador >= numero2; contador--){
+for (let contador = numero1; contador >= numero2; contador--) {
     let div = 0;
-    for(let contagem = 2; contagem < contador; contagem++){
-        if(contador % contagem == 0){
+    for (let contagem = 2; contagem < contador; contagem++) {
+        if (contador % contagem == 0) {
             div = 1;
             break
         }
     }
 
-    if(contador > 1 && div == 0){
-        document.write('['+contador+']..');
-    }else{
-        document.write(contador+'..')
+    if (contador > 1 && div == 0) {
+        document.write('[' + contador + ']..');
+    } else {
+        document.write(contador + '..')
     }
 }

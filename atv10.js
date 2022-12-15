@@ -4,8 +4,8 @@ digitado:*/
 
 let limite = Number(prompt('Digite um número:'));
 
-    document.write('Contagem: ');
-for(let contador=0; contador<=limite; contador++){
+document.write('Contagem: ');
+for (let contador = 0; contador <= limite; contador++) {
     document.write(contador + ',');
 }
 document.write('FIM!');

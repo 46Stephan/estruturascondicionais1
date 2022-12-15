@@ -14,21 +14,21 @@ de peso ideal”.*/
 const altura = parseFloat(prompt('Digite a sua altura: '));
 const peso = parseFloat(prompt('Digite o seu peso: '));
 
-const imc = peso / (Math.pow(altura,2));
+const imc = peso / (Math.pow(altura, 2));
 
-if (imc<18.5){
+if (imc < 18.5) {
     document.write('Você está abaixo da faixa de peso ideal');
 }
 
-else if (imc>24.99){
+else if (imc > 24.99) {
     document.write('Você está acima da faixa de peso ideal!');
 }
 
-else if (imc>=18.5 && imc <=24.99){
+else if (imc >= 18.5 && imc <= 24.99) {
     document.write('Você está dentro da faixa de peso ideal!');
 }
 
-else{
+else {
     document.write('Insira um valor válido');
 }
 

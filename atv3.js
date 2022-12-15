@@ -20,11 +20,11 @@ const valorSaque = parseFloat(prompt('Digite um valor para sacar:'));
 let taxa = 4.50
 let saqueTotal = valorSaque + taxa
 
-if (saldo < saqueTotal){
+if (saldo < saqueTotal) {
     alert('Você não possui saldo suficiente')
-} else if (valorSaque %5 !== 0) {
+} else if (valorSaque % 5 !== 0) {
     alert('O valor precisa ser múltiplo de 5')
-} else{
+} else {
     saldo = saldo - saqueTotal;
     alert('Você ficou com um saldo de' + saldo)
 }

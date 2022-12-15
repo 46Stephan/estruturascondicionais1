@@ -6,19 +6,19 @@ b. A maior altura do grupo; */
 let maior = 0;
 let menor = 0;
 
-for(let contador = 0; contador<15; contador++){
+for (let contador = 0; contador < 15; contador++) {
     let altura = parseFloat(prompt('Digite a altura:'));
 
-    if(menor==0){
+    if (menor == 0) {
         menor = altura
 
-    }else if(altura>maior){
+    } else if (altura > maior) {
         maior = altura
 
-    }else{
+    } else {
         menor = altura
     }
 
 }
-document.write('A maior altura é: ' +maior+ '</br >.');
-document.write('A menor altura é: ' +menor+ '</br >.');
+document.write('A maior altura é: ' + maior + '</br >.');
+document.write('A menor altura é: ' + menor + '</br >.');

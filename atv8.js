@@ -5,6 +5,6 @@ quantidade de iterações também (i).*/
 
 const numero = prompt('Informe um número maior do que zero:');
 
-for(let contador = 1; contador <=10; contador++){
-    document.write(numero + 'x' + contador + '=' + numero*contador + '</br >' + '</br >');
+for (let contador = 1; contador <= 10; contador++) {
+    document.write(numero + 'x' + contador + '=' + numero * contador + '</br >' + '</br >');
 }

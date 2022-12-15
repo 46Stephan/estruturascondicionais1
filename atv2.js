@@ -19,10 +19,10 @@ switch (operacao) {
         break;
     case "/":
         resultado = n1 / n2;
-        break;    
+        break;
     default:
         document.write('Opção inválida!')
         break;
 }
 
-        document.write(resultado)
+document.write(resultado)
